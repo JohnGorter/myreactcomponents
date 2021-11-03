@@ -10,7 +10,7 @@ export default {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index.js',
     library: {
-      type:'module'
+      type:'umd'
     }
   },
   experiments: {
