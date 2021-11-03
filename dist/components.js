@@ -44,7 +44,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
   \**********************/
 /***/ ((__unused_webpack___webpack_module__, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Button\": () => (/* binding */ Button)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar Button = function Button() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", null, \"Click me\");\n};\n\n//# sourceURL=webpack://complib/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Button\": () => (/* binding */ Button),\n/* harmony export */   \"MyList\": () => (/* binding */ MyList)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar Button = function Button() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", null, \"Click me\");\n};\nvar MyList = function MyList() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, [\"a\", \"b\", \"c\"].map(function (s) {\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, s);\n  })));\n};\n\n//# sourceURL=webpack://complib/./src/index.js?");
 
 /***/ })
 
@@ -110,5 +110,6 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /******/ // This entry module can't be inlined because the eval devtool is used.
 /******/ var __webpack_exports__ = __webpack_require__("./src/index.js");
 /******/ var __webpack_exports__Button = __webpack_exports__.Button;
-/******/ export { __webpack_exports__Button as Button };
+/******/ var __webpack_exports__MyList = __webpack_exports__.MyList;
+/******/ export { __webpack_exports__Button as Button, __webpack_exports__MyList as MyList };
 /******/ 
