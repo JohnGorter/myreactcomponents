@@ -8,7 +8,7 @@ export default {
   mode:"development",
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'components.js',
+    filename: 'index.js',
     library: {
       type:'module'
     }
